@@ -2,7 +2,7 @@ import pandas as pd
 import cohere
 
 # Ganti dengan API key Anda dari Cohere
-co = cohere.Client("4Va5R4AClZL45poLaxKI7IBrtXjDwjDL4alekrJ6")
+co = cohere.Client("COHERE_API_KEY")
 
 # Ganti nama file sesuai nama file CSV kamu
 filename = "token kaburajadulu.csv"

@@ -5,7 +5,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 from collections import Counter
 
 # Ganti dengan API key Anda dari Cohere
-co = cohere.Client("4Va5R4AClZL45poLaxKI7IBrtXjDwjDL4alekrJ6")
+co = cohere.Client("COHERE_API_KEY")
 
 # Nama file CSV yang berisi token dan label
 filename = "/data/hasil_sentimen_cohere_prompt.csv"
