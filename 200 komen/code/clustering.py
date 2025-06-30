@@ -3,7 +3,6 @@ from sklearn.cluster import KMeans
 from sklearn.decomposition import PCA
 import matplotlib.pyplot as plt
 
-
 tabel_tfidf_norm = pd.read_csv('tabel_tfidf_norm.csv', encoding="utf-8")
 
 n_clusters = 2  
